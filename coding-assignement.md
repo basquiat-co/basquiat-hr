@@ -2,7 +2,7 @@
 
 The goal of this coding assignment is to evaluate how you handle a new situation and the style of code you produce.
 
-The objective is to create a UI for a list of GraphQL objects you get from an API.
+The objective is to create a UI for a list of Document objects you get from an API.
 We will be mostly looking at the UI/UX, but also the code structure.
 
 You should not be working more than a few hours on this. It should not be a fully functional App, but should follow the industry standards for the views you'll be creating.
