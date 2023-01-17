@@ -54,7 +54,13 @@ I want to edit the document title and description.
 
 ### Acceptance criteria
 
-- The service needs a bearer authentication header with the following token: "basquiat-demo-2023-a"
+- The service needs a token Authorization header with the following token: "basquiat-demo-2023-a"
+  ```json
+  {
+      "Authorization": "Token basquiat-demo-2023-a"
+  }
+  ```
+
 - A screen/view to edit the title and description.
 - Edition should be triggered in the list and detail view
 - New values written back to the server through the API
