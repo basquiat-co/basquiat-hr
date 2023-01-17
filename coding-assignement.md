@@ -20,7 +20,6 @@ I want to see a list of documents
 
 - Get the list of documents from the GraphQL API (https://app.st-basquiat.co/graphql/) using the findDemoDocuments query.
 - A screen that displays the list of documents.
-- A detail view for a document ( title, description, pdfUrl )
 
 ### Comments
 
@@ -33,11 +32,12 @@ I want to see a list of documents
 ## CA-2 - Detail of documents
 
 As a user
-I want to see a the details ( title, description, pdfUrl link)
+I want to see a the details of a document
 
 ### Acceptance criteria
 
-- A detail view for a document ( id, title, description, pdfUrl )
+- A detail view for a document containing title, description, creationDate, updatedDate
+- A way to navigate back to the list of document
 
 ### Comments
 
@@ -54,6 +54,7 @@ I want to edit the document title and description.
 
 ### Acceptance criteria
 
+- The service needs a bearer authentication header with the following token: "basquiat-demo-2023-a"
 - A screen/view to edit the title and description.
 - Edition should be triggered in the list and detail view
 - New values written back to the server through the API
